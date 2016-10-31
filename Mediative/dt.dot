@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+rankdir=LR ;
+0 [label="AT <= 17.815\nmse = 291.321\nsamples = 38272\nvalue = 454.2653", fillcolor="#e5813966"] ;
+1 [label="AT <= 11.825\nmse = 89.0851\nsamples = 15651\nvalue = 471.6883", fillcolor="#e58139c0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+2 [label="AT <= 8.655\nmse = 43.1882\nsamples = 7080\nvalue = 479.4218", fillcolor="#e58139e8"] ;
+1 -> 2 ;
+3 [label="mse = 30.3397\nsamples = 3052\nvalue = 483.8254", fillcolor="#e58139ff"] ;
+2 -> 3 ;
+4 [label="mse = 27.0981\nsamples = 4028\nvalue = 476.0853", fillcolor="#e58139d7"] ;
+2 -> 4 ;
+5 [label="AT <= 14.445\nmse = 36.785\nsamples = 8571\nvalue = 465.3001", fillcolor="#e581399f"] ;
+1 -> 5 ;
+6 [label="mse = 23.0319\nsamples = 4137\nvalue = 468.7938", fillcolor="#e58139b1"] ;
+5 -> 6 ;
+7 [label="mse = 27.6024\nsamples = 4434\nvalue = 462.0403", fillcolor="#e581398e"] ;
+5 -> 7 ;
+8 [label="AT <= 23.065\nmse = 75.9042\nsamples = 22621\nvalue = 442.2107", fillcolor="#e5813927"] ;
+0 -> 8 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+9 [label="V <= 47.335\nmse = 44.5589\nsamples = 7677\nvalue = 450.518", fillcolor="#e5813952"] ;
+8 -> 9 ;
+10 [label="mse = 34.1384\nsamples = 1626\nvalue = 457.5343", fillcolor="#e5813977"] ;
+9 -> 10 ;
+11 [label="mse = 30.5759\nsamples = 6051\nvalue = 448.6326", fillcolor="#e5813948"] ;
+9 -> 11 ;
+12 [label="V <= 66.21\nmse = 38.3429\nsamples = 14944\nvalue = 437.9432", fillcolor="#e5813911"] ;
+8 -> 12 ;
+13 [label="mse = 24.41\nsamples = 6031\nvalue = 442.7401", fillcolor="#e581392a"] ;
+12 -> 13 ;
+14 [label="mse = 21.6644\nsamples = 8913\nvalue = 434.6973", fillcolor="#e5813900"] ;
+12 -> 14 ;
+}
